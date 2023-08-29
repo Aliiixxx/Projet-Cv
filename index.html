@@ -6,26 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet-Cv</title>
     <link rel="stylesheet" href="../Projet-Cv/CSS/style.css">
+    <link rel="shortcut icon" href="../Projet-Cv/Image/favicon.png">
 </head>
 
 <body>
     <header>
+        <section id="nom">
+            <h2>Développeuse web junior</h2>
+            <h1>JANE DOE</h1>
+            <figure>
+                <img src="../Projet-Cv/Image/DYug_3u7..jpeg" alt="Photo">
+            </figure>
+        </section>
+
         <address>
-            <div>
-                <h1>JANE DOE</h1>
-                <h2>Développeuse web junior</h2>
-            </div>
-            <div>
-                <p>12 Rue des oliviers <br>
-                    53200 La Roche-Neuville</p>
-                <p>jane.doe@gmail.com</p>
-                <p>0606060606</p>
+            <div id="contact">
+                <a class="adress" href="https://www.google.com/maps/place/12+Rue+des+Oliviers,+53200+La+Roche-Neuville/@47.8746112,-0.7520307,17z/data=!3m1!4b1!4m6!3m5!1s0x4808f12c7939a8a7:0xaefceff0de598651!8m2!3d47.8746112!4d-0.7520307!16s%2Fg%2F11c1fvm555?entry=ttu">
+                    12 Rue des oliviers <br> 
+                    53200 La Roche-Neuville</a>
+                <a class="mail" href="mailto:jane.doe@gmail.com">jane.doe@gmail.com</a>
+                <a class="tel" href="tel:0606060606">0606060606</a>
             </div>
         </address>
     </header>
 
-    <main>
-        <section>
+    <main id="main">
+        <section id="experiences">
             <div>
                 <h3>Expériences professionnelles</h3>
                 <p><strong>intitulé du poste chez Nom de l'entreprise</strong></p>
@@ -74,27 +80,27 @@
             </div>
         </section>
 
-        <section>
+        <section id="a-propos">
             <aside>
                 <div>
                     <h3>A propos</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet.<br>
-                        consectetur adipisicing elit. Preasent<br>
-                        vestbulum a ligula in pharetra.<br>
-                        Pellentesque viverra semper nibh ut<br>
-                        eleifend. In id est magna. Nunc<br>
-                        ultrices nisi id sem mollis. sed<br>
-                        sagittis lorem pellentesque. Fusce<br>
-                        vitrae malesuada ex. Quisque<br>
-                        scelerisque risus turpis. vitae<br>
+                    <p id="text-lorem">
+                        Lorem ipsum dolor sit amet.
+                        consectetur adipisicing elit. Preasent
+                        vestbulum a ligula in pharetra.
+                        Pellentesque viverra semper nibh ut
+                        eleifend. In id est magna. Nunc
+                        ultrices nisi id sem mollis. sed
+                        sagittis lorem pellentesque. Fusce
+                        vitrae malesuada ex. Quisque
+                        scelerisque risus turpis. vitae
                         vulputate sapien aliquet quis.
                     </p>
                 </div>
 
                 <div>
                     <h3>Langues parlées</h3>
-                    <ul>
+                    <ul id="blanc">
                         <li>Français - Langue maternelle</li>
                         <li>Anglais - Intermédiaire</li>
                         <li>Espagnol - Débutant</li>
@@ -103,7 +109,7 @@
 
                 <div>
                     <h3>Centres d'interêt</h3>
-                    <ul>
+                    <ul id="blanc">
                         <li>Chant</li>
                         <li>Fitness</li>
                         <li>Randonné</li>
@@ -115,7 +121,7 @@
 
     </main>
 
-    <footer>
+    <footer id="blanc">
         <p><small>Dernière mise a jour le <time datetime="2022-08-10">10 Aout 2022</time></small></p>
     </footer>
 </body>
